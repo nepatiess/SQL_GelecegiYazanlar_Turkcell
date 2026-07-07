@@ -32,7 +32,8 @@ flowchart TB
     VB --> B
 
     V --> VO
-    V --> KVT
+    VO --> VV
+    VO --> KVT
 
     B --> K
     B --> A
