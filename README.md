@@ -50,10 +50,52 @@ flowchart TB
   <img src="https://raw.githubusercontent.com/nepatiess/SQL_GelecegiYazanlar_Turkcell/refs/heads/main/images/%C4%B0li%C5%9FkiselVT%C3%96rnek.png" width="600">
 </p>
 
+---
+# Sanal Makine Kavramı
+- Fiziksel bir işletim sisteminin içinde başka işletim sistemlerinin de gerçek birer bilgisayar gibi çalıştırılması kavramıdır.
 
+- Öncesinde:
+```mermaid
+flowchart TB
+    FIS[Fiziksel Server]
+    WS[Web Server]
+    DS[Database Server]
+    FS[File Server]
+    MS[Mail Server]
+    AS[Application Server]
 
+    %% Yukarıdan aşağı
+    FIS --> WS
+    FIS --> DS
+    FIS --> FS
+    FIS --> MS
+    FIS --> AS
 
+```
 
+- Sonrasında:
+```mermaid
+flowchart TB
+    FIS1[Fiziksel Server 1]
+    FIS2[Fiziksel Server 2]
+    FIS3[Fiziksel Server 3]
+    FIS4[Fiziksel Server 4]
+    FIS5[Fiziksel Server 5]
+
+    WS[Web Server]
+    DS[Database Server]
+    FS[File Server]
+    MS[Mail Server]
+    AS[Application Server]
+
+    %% Yukarıdan aşağı
+    FIS1 --> WS
+    FIS2 --> DS
+    FIS3 --> FS
+    FIS4 --> MS
+    FIS5 --> AS
+
+```
 
 
 
