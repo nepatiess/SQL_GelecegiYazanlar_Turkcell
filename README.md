@@ -155,14 +155,33 @@ flowchart TB
     SS5 --> AS
 
 ```
+---
+## SQL Server Bağlantıları
 
-```markdown
-> [!NOTE]
-> Bu önemli bir nottur.
-
+```mermaid
+flowchart LR
+SQL Server --> Client
 ```
 
+```mermaid
+flowchart TB
+    FB[Fiziksel Bağlantı]
+    TI[TCP/IP]
+    NP[Named Pipes]
+    AP[Açık Port]
+    AN[Authentication]
+    WA[Windows Authentication]
+    SA[SQL Server Authentication]
 
+    FB --> TI
+    TI --> AP
+    AP --> NP
+    NP --> FB
+
+    AP --> AN
+    AN --> WA
+    AN --> SA
+```
 
 
 
