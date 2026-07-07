@@ -160,8 +160,12 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-SQL Server --> Client
+    SS[SQL Server]
+    CT[Client]
+SS --> CT
 ```
+
+---
 
 ```mermaid
 flowchart TB
