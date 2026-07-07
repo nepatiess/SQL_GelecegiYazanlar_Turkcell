@@ -46,6 +46,34 @@ flowchart TB
   <img src="https://raw.githubusercontent.com/nepatiess/SQL_GelecegiYazanlar_Turkcell/refs/heads/main/images/RDMS.png" width="600">
 </p>
 
+erDiagram
+
+CUSTOMERS {
+    int ID PK
+    int TCNUMBER
+    string FULLNAME-SURNAME
+    string TMAIL
+    string PASSWORD
+}
+
+SALES {
+    int ID PK
+    date DATE
+    int CUSTOMERSID FK
+    int ITEMID FK
+    int PRICE
+    int AMOUNT
+}
+
+ITEMS {
+    int ID PK
+    string ITEMNAME
+    int PRICE
+}
+
+CUSTOMER ||--o{ ORDER : creates
+PRODUCT ||--o{ ORDER : contains
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/nepatiess/SQL_GelecegiYazanlar_Turkcell/refs/heads/main/images/%C4%B0li%C5%9FkiselVT%C3%96rnek.png" width="600">
 </p>
