@@ -97,6 +97,39 @@ flowchart TB
 
 ```
 
+```mermaid
+flowchart TB
+    FIZ[Fiziksel Server]
+    SS1[Sanal Server 1]
+    SS2[Sanal Server 2]
+    SS3[Sanal Server 3]
+    SS4[Sanal Server 4]
+    SS5[Sanal Server 5]
+
+    WS[Web Server]
+    DS[Database Server]
+    FS[File Server]
+    MS[Mail Server]
+    AS[Application Server]
+
+    %% Yukarıdan aşağı
+    FIZ --> SS1
+    SS1 --> WS
+
+    FIZ --> SS2
+    SS2 --> DS
+
+    FIZ --> SS3
+    SS3 --> FS
+
+    FIZ --> SS4
+    SS4 --> MS
+
+    FIZ --> SS5
+    SS5 --> AS
+
+```
+
 
 
 
