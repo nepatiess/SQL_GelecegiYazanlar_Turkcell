@@ -11,10 +11,8 @@
 # SQL
 - (**S**tructured **Q**uery **L**anguage) (Yapısal Sorgulama Dili)
 
-
-
-
-
+---
+## Neden SQL?
 ```mermaid
 flowchart TB
     VB[Veri Bilimi]
@@ -40,3 +38,32 @@ flowchart TB
     B --> PR
 
 ```
+---
+# İlişkisel Veritabanı Kavramı (RDMS)
+- Tekrar eden verileri tekilleştirmek amacıyla kullanılan veritabanı sistemleridir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
