@@ -41,7 +41,10 @@ flowchart TB
 ---
 # İlişkisel Veritabanı Kavramı (RDMS)
 - Tekrar eden verileri tekilleştirmek amacıyla kullanılan veritabanı sistemleridir.
-<img src="https://raw.githubusercontent.com/nepatiess/SQL_GelecegiYazanlar_Turkcell/refs/heads/main/images/RDMS.png" width="500" length= "1000" align="center"/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nepatiess/SQL_GelecegiYazanlar_Turkcell/refs/heads/main/images/RDMS.png" width="600">
+</p>
 
 
 
