@@ -76,11 +76,6 @@ CUSTOMER ||--o{ ORDER : creates
 PRODUCT ||--o{ ORDER : contains
 
 ```
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nepatiess/SQL_GelecegiYazanlar_Turkcell/refs/heads/main/images/%C4%B0li%C5%9FkiselVT%C3%96rnek.png" width="600">
-</p>
-
 ---
 # Sanal Makine Kavramı
 - Fiziksel bir işletim sisteminin içinde başka işletim sistemlerinin de gerçek birer bilgisayar gibi çalıştırılması kavramıdır.
@@ -161,6 +156,11 @@ flowchart TB
 
 ```
 
+```markdown
+> [!NOTE]
+> Bu önemli bir nottur.
+
+```
 
 
 
